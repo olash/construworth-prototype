@@ -1,0 +1,11 @@
+{
+  "name": "construworth-round-1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node prepare.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.33.5"
+  }
+}
