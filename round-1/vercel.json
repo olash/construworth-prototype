@@ -1,0 +1,33 @@
+{
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/assets/j77a-model.bin",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
+        }
+      ]
+    }
+  ]
+}
