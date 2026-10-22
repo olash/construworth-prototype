@@ -5,36 +5,6 @@
   "w": 0
  },
  {
-  "url": "https://construworth.com/wp-content/uploads/2021/08/kingstower2.jpg",
-  "file": "2021-08-kingstower2-800.jpg",
-  "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V2_CShading_LightMix-1-1366x1536-1.jpg",
-  "file": "2024-06-v2-cshading-lightmix-1-1366x1536-1-800.jpg",
-  "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/07/DJI_0752.jpg",
-  "file": "2024-07-dji-0752-800.jpg",
-  "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V6_Interactive-LightMix-5-1536x1181-1.jpg",
-  "file": "2024-06-v6-interactive-lightmix-5-1536x1181-1-1400.jpg",
-  "w": 1400
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/RENDER-F.jpg",
-  "file": "2024-06-render-f-800.jpg",
-  "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2021/08/main-slider-3-1-e1716871842790.jpg",
-  "file": "2021-08-main-slider-3-1-e1716871842790-800.jpg",
-  "w": 800
- },
- {
   "url": "https://construworth.com/wp-content/uploads/2024/06/431572072_17856644886134138_5453342173702758846_n-400x226.jpg",
   "file": "06-431572072-17856644886134138-5453342173702758846-n-400x226.jpg",
   "w": 0
@@ -55,8 +25,33 @@
   "w": 0
  },
  {
+  "url": "https://construworth.com/wp-content/uploads/2021/08/kingstower2.jpg",
+  "file": "2021-08-kingstower2-800.jpg",
+  "w": 800
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/RENDER-F.jpg",
+  "file": "2024-06-render-f-800.jpg",
+  "w": 800
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V2_CShading_LightMix-1-1366x1536-1.jpg",
+  "file": "2024-06-v2-cshading-lightmix-1-1366x1536-1-800.jpg",
+  "w": 800
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V6_Interactive-LightMix-5-1536x1181-1.jpg",
+  "file": "2024-06-v6-interactive-lightmix-5-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
   "url": "https://construworth.com/wp-content/uploads/2024/06/V6_Interactive-LightMix-5-1536x1181-1.jpg",
   "file": "2024-06-v6-interactive-lightmix-5-1536x1181-1-800.jpg",
+  "w": 800
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2021/08/main-slider-3-1-e1716871842790.jpg",
+  "file": "2021-08-main-slider-3-1-e1716871842790-800.jpg",
   "w": 800
  },
  {
@@ -72,6 +67,11 @@
  {
   "url": "https://construworth.com/wp-content/uploads/2024/07/NSDC-2.jpg",
   "file": "2024-07-nsdc-2-800.jpg",
+  "w": 800
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/07/DJI_0752.jpg",
+  "file": "2024-07-dji-0752-800.jpg",
   "w": 800
  },
  {
@@ -250,14 +250,44 @@
   "w": 800
  },
  {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V6_Interactive-LightMix-5-1536x1181-1.jpg",
-  "file": "2024-06-v6-interactive-lightmix-5-1536x1181-1-1600.jpg",
-  "w": 1600
+  "url": "https://construworth.com/wp-content/uploads/2024/06/v5_Interactive-LightMix-4-1536x1181-1.jpg",
+  "file": "2024-06-v5-interactive-lightmix-4-1536x1181-1-1400.jpg",
+  "w": 1400
  },
  {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/v5_Interactive-LightMix-4-1536x1181-1.jpg",
-  "file": "2024-06-v5-interactive-lightmix-4-1536x1181-1-1600.jpg",
-  "w": 1600
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V8_Interactive-LightMix-2-1536x1181-1.jpg",
+  "file": "2024-06-v8-interactive-lightmix-2-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V7_Interactive-LightMix-3-1536x1181-1.jpg",
+  "file": "2024-06-v7-interactive-lightmix-3-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v3_Interactive-LightMix-1536x1181-1.jpg",
+  "file": "2024-06-j77-v3-interactive-lightmix-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4_Interactive-LightMix-1536x1181-1.jpg",
+  "file": "2024-06-j77-v4-interactive-lightmix-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V1-3-1536x1181-1.jpg",
+  "file": "2024-06-v1-3-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/V3_Interactive-LightMix-6-1536x1181-1.jpg",
+  "file": "2024-06-v3-interactive-lightmix-6-1536x1181-1-1400.jpg",
+  "w": 1400
+ },
+ {
+  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4.jpg",
+  "file": "2024-06-j77-v4-1400.jpg",
+  "w": 1400
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/v5_Interactive-LightMix-4-1536x1181-1.jpg",
@@ -266,18 +296,8 @@
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/V8_Interactive-LightMix-2-1536x1181-1.jpg",
-  "file": "2024-06-v8-interactive-lightmix-2-1536x1181-1-1600.jpg",
-  "w": 1600
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V8_Interactive-LightMix-2-1536x1181-1.jpg",
   "file": "2024-06-v8-interactive-lightmix-2-1536x1181-1-800.jpg",
   "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V7_Interactive-LightMix-3-1536x1181-1.jpg",
-  "file": "2024-06-v7-interactive-lightmix-3-1536x1181-1-1600.jpg",
-  "w": 1600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/V7_Interactive-LightMix-3-1536x1181-1.jpg",
@@ -286,18 +306,8 @@
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v3_Interactive-LightMix-1536x1181-1.jpg",
-  "file": "2024-06-j77-v3-interactive-lightmix-1536x1181-1-1600.jpg",
-  "w": 1600
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v3_Interactive-LightMix-1536x1181-1.jpg",
   "file": "2024-06-j77-v3-interactive-lightmix-1536x1181-1-800.jpg",
   "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4_Interactive-LightMix-1536x1181-1.jpg",
-  "file": "2024-06-j77-v4-interactive-lightmix-1536x1181-1-1600.jpg",
-  "w": 1600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4_Interactive-LightMix-1536x1181-1.jpg",
@@ -306,18 +316,8 @@
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/V1-3-1536x1181-1.jpg",
-  "file": "2024-06-v1-3-1536x1181-1-1600.jpg",
-  "w": 1600
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V1-3-1536x1181-1.jpg",
   "file": "2024-06-v1-3-1536x1181-1-800.jpg",
   "w": 800
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/V3_Interactive-LightMix-6-1536x1181-1.jpg",
-  "file": "2024-06-v3-interactive-lightmix-6-1536x1181-1-1600.jpg",
-  "w": 1600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/V3_Interactive-LightMix-6-1536x1181-1.jpg",
@@ -326,48 +326,43 @@
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4.jpg",
-  "file": "2024-06-j77-v4-1600.jpg",
-  "w": 1600
- },
- {
-  "url": "https://construworth.com/wp-content/uploads/2024/06/j77-v4.jpg",
   "file": "2024-06-j77-v4-800.jpg",
   "w": 800
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/07/IMG-20240528-1.jpg",
-  "file": "2024-07-img-20240528-1-500.jpg",
-  "w": 500
+  "file": "2024-07-img-20240528-1-600.jpg",
+  "w": 600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0005-1.jpg",
-  "file": "2024-05-img-20240528-wa0005-1-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0005-1-600.jpg",
+  "w": 600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0007.jpg",
-  "file": "2024-05-img-20240528-wa0007-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0007-600.jpg",
+  "w": 600
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0002.jpg",
-  "file": "2024-05-img-20240528-wa0002-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0002-200.jpg",
+  "w": 200
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0003.jpg",
-  "file": "2024-05-img-20240528-wa0003-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0003-200.jpg",
+  "w": 200
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0004.jpg",
-  "file": "2024-05-img-20240528-wa0004-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0004-200.jpg",
+  "w": 200
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/IMG-20240528-WA0006.jpg",
-  "file": "2024-05-img-20240528-wa0006-500.jpg",
-  "w": 500
+  "file": "2024-05-img-20240528-wa0006-200.jpg",
+  "w": 200
  },
  {
   "url": "https://construworth.com/wp-content/uploads/2024/05/cropped-CW-icon-w-300x300.png",
