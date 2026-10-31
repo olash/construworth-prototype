@@ -32,6 +32,24 @@
           "value": "application/octet-stream"
         }
       ]
+    },
+    {
+      "source": "/embed/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://construworth.com https://*.construworth.com https://skul2.com https://*.skul2.com http://localhost:* http://127.0.0.1:*"
+        }
+      ]
+    },
+    {
+      "source": "/(app|embed)\\.js",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
     }
   ]
 }
