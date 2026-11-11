@@ -23,11 +23,17 @@
     '/': [
       { id: 'bill', sel: 'button', re: /^[A-Z] .+\+/, title: 'Open a line of the bill', body: 'Tap any element to see what was measured and how it was priced.', g: 'tap', also: function () { return pickAll('button', /^[A-Z] .+[+−]/); } },
       { id: 'stages', sel: 'button', re: /^0[1-6]$/, group: true, title: 'Walk through the six stages', body: 'Tap a number, or use Next stage, to see what we do at each step of a project.', g: 'tap', also: function () { return pickAll('button', /^(0[1-6]|← Previous|Next stage →)$/); } },
-      { id: 'strip', sel: 'a', re: /^Kings Tower/, title: 'Swipe for more buildings', body: 'This row scrolls sideways. Swipe it to see other projects we have costed.', g: 'swipe', scroller: true }
+      { id: 'strip', sel: 'a', re: /^(ONL|Kings Tower)/, title: 'Swipe for more buildings', body: 'This row scrolls sideways. Swipe it to see other projects we have costed.', g: 'swipe', scroller: true }
     ],
     '/projects/': [
       { id: 'filters', sel: 'button', re: /^Residential \d+$/, group: true, title: 'Filter the list', body: 'Tap a sector or a status to narrow the projects down. Tap All to reset.', g: 'tap', also: function () { return pickAll('[role=group] button'); } },
       { id: 'map', sel: 'button', re: /^Lagos, \d+ projects?$/, title: 'Pick a city on the map', body: 'Tap a pin to show only the projects in that city.', g: 'tap', also: function () { return pickAll('button', /, \d+ projects?$/); } }
+    ],
+    '/projects/onl/': [
+      { id: 'model4d', sel: 'iframe[data-cw4d]', frame: true, inside: true, title: 'Watch it go up, or pick a floor', body: 'Press Play the build to run the programme month by month, or tap Floor by floor and choose a level. Drag the model to turn it.', g: 'tap' }
+    ],
+    '/projects/mekuwen/': [
+      { id: 'model4d', sel: 'iframe[data-cw4d]', frame: true, inside: true, title: 'Watch it go up, or pick a floor', body: 'Press Play the build to run the programme month by month, or tap Floor by floor and choose a level. Drag the model to turn it.', g: 'tap' }
     ],
     '/projects/j77a/': [
       { id: 'model', sel: 'canvas', title: 'Turn the model', body: 'Drag to look around the house. Use + and − to zoom in and out.', g: 'drag', inside: true },
@@ -111,7 +117,7 @@
     var vw = document.documentElement.clientWidth, cw = card.offsetWidth, ch = card.offsetHeight, x, y, below = true;
     x = r.left + r.width / 2 - cw / 2;
     if (cur.inside) {
-      y = Math.max(top, V.top) + Math.min(r.height * 0.18, 90); arrow.style.display = 'none';
+      y = Math.max(top, V.top) + (cur.frame ? 150 : Math.min(r.height * 0.18, 90)); arrow.style.display = 'none';
     } else {
       var spaceBelow = V.top + V.h - bot, spaceAbove = top - V.top;
       below = spaceBelow > ch + 18 || spaceAbove < ch + 18 && spaceBelow >= spaceAbove;
@@ -208,6 +214,7 @@
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('message', function (e) { if (e.data && e.data.type === 'construworth:viewport') setTimeout(onScroll, 30); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && cur) finish(cur); });
+    window.addEventListener('blur', function () { setTimeout(function () { live.forEach(function (s) { if (s.frame && document.activeElement === s.el) finish(s); }); }, 0); });
   }
   // wait for the page's components to render
   var tries = 0;
