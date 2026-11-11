@@ -26,6 +26,8 @@
       <a href="?page=home">Landing page</a>
       <a href="?page=projects">Projects</a>
       <a href="?page=case">Case study</a>
+      <a href="?page=onl">ONL</a>
+      <a href="?page=mekuwen">Mekuwen</a>
     </nav>
   </div></div>
 
@@ -35,7 +37,7 @@
 
   <script>
     (function () {
-      var pages = { home: '/embed/', projects: '/embed/projects/', case: '/embed/projects/j77a/' };
+      var pages = { home: '/embed/', projects: '/embed/projects/', case: '/embed/projects/j77a/', onl: '/embed/projects/onl/', mekuwen: '/embed/projects/mekuwen/' };
       var key = new URLSearchParams(location.search).get('page') || 'home';
       if (!pages[key]) key = 'home';
       document.querySelector('.pick a[href="?page=' + key + '"]').setAttribute('aria-current', 'page');
