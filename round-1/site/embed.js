@@ -4,6 +4,9 @@
  *  - Scrolls the page to sections when a link inside the frame points to one.
  *  - Passes the page's #hash to the frame, so links like /#lifecycle land on the right section.
  *  Options on the iframe: data-cw-offset="80" leaves room for a sticky site header when scrolling.
+ *                         data-cw-site="https://example.com" is the website the links inside the frame open
+ *                         (Contact opens <site>/contact/, and so on). Defaults to this page's address.
+ *                         data-cw-links='{"/contact/":"https://example.com/get-in-touch/"}' sends one link elsewhere.
  */
 (function () {
   var script = document.currentScript;
@@ -39,12 +42,18 @@
     });
   }
 
+  function config(f) {
+    var links = {};
+    try { links = JSON.parse(f.getAttribute('data-cw-links') || '{}'); } catch (err) {}
+    var site = f.getAttribute('data-cw-site') || location.origin;
+    f.contentWindow.postMessage({ type: 'construworth:config', site: site, links: links }, ORIGIN);
+  }
   window.addEventListener('message', function (e) {
     if (e.origin !== ORIGIN || !e.data || e.data.source !== 'construworth') return;
     var f = frameFor(e.source);
     if (!f) return;
     if (e.data.type === 'construworth:height') { f.style.height = e.data.height + 'px'; viewport(); }
-    if (e.data.type === 'construworth:ready') viewport();
+    if (e.data.type === 'construworth:ready') { config(f); viewport(); }
     if (e.data.type === 'construworth:scrollTo') {
       var offset = parseInt(f.getAttribute('data-cw-offset') || '0', 10);
       window.scrollTo({ top: f.getBoundingClientRect().top + window.pageYOffset + e.data.top - offset, behavior: 'smooth' });
